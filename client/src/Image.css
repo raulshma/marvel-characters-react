@@ -1,0 +1,12 @@
+.image {
+  object-fit: cover;
+  vertical-align: bottom;
+  height: 294px;
+}
+.placeholer__image {
+  display: flex;
+  place-content: center;
+  background: url(https://via.placeholder.com/196x294.png?text=No+Image+Found) no-repeat;
+  width: 196px;
+  height: 294px;
+}

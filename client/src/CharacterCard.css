@@ -1,0 +1,24 @@
+.character-card {
+  max-width: 200px;
+  height: 450px;
+  flex-grow: 1;
+  background: rgba(255, 255, 255, 0.94);
+  border-radius: 1rem;
+  border: 2px solid white;
+  border-top: 1;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.character_details {
+  padding: 0.3rem;
+}
+.character__name {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.87);
+}
+.character__description {
+  padding-top: 0.5rem;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.6);
+}

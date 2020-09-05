@@ -1,0 +1,25 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'roboto', 'montserrat',
+    'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #161616;
+}
+
+#root {
+  width: inherit;
+  height: inherit;
+  padding: 2rem;
+}
+.wrapper {
+  display: flex;
+  place-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
