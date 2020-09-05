@@ -1,7 +1,7 @@
 import React from 'react';
 import './Image.css';
 
-function Image({ thumb, full, name }) {
+function Image({ thumb, full, desc }) {
   if (!thumb) {
     return <div>Loading image...</div>;
   }
@@ -10,7 +10,7 @@ function Image({ thumb, full, name }) {
   }
   return (
     <a href={full} data-attribute="SRL">
-      <img className="image" src={thumb} alt={name} />
+      <img className="image" src={thumb} alt={desc} />
     </a>
   );
 }

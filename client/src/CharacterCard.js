@@ -10,7 +10,7 @@ function CharacterCard({ data }) {
       <Image
         thumb={`${data.thumbnail.path}/${PORTRAIT_SIZES.portrait_uncanny}.${data.thumbnail.extension}`}
         full={`${data.thumbnail.path}.${data.thumbnail.extension}`}
-        name={data.name}
+        desc={data.description}
       />
       <div className="character_details">
         <h1 className="character__name">{data.name}</h1>
